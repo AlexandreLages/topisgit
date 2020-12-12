@@ -67,9 +67,9 @@ class App extends Component {
               <div className="row">
                 <div className="input-field col s10">
                   <Input onChange={(e) => this.setState({language: e.target.value})}/>
-                  <label for="language">Digite a linguagem desejada</label>
                 </div>
-                <div className="input-field col">
+                <br />
+                <div className="input-field col 2">
                   <Button className="btn waves-effect waves-light" onClick={this._getRepositories}>Pesquisar</Button>
                 </div>
               </div>
