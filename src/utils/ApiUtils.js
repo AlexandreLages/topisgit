@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const settingsAxios = axios.create({
 	headers: {
-		'Authorization': 'token bed79dd8750c68b050ed07310ce59f50683c365d'
+		'Authorization': 'token 72a00f5ecf53c0071a9b86729149176096150c76'
 	}
 });
 
